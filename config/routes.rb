@@ -53,4 +53,11 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  get 'calculate'=>'calculate#index'
+  get 'calculate/emi'=>'calculate#emi'
+  get 'calculate/tax'=>'calculate#tax'
+
+
+
 end
